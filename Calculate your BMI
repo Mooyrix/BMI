@@ -1,0 +1,4 @@
+h = float(input('請輸入身高cm：'))/100
+w = float(input('請輸入體重kg：'))
+bmi = w/(h*h)
+print(f'你的BMI值為：{bmi}')
